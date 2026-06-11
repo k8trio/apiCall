@@ -74,7 +74,7 @@ class StudentsController extends Controller
                 ->setEncodingOptions(JSON_PRETTY_PRINT);
         }
         $validated = $request -> validate([
-            'name' => 'sometimesstring',
+            'name' => 'sometimes|string',
             'email' => 'sometimes|email|unique:students,email,' . $id,
             'course' => 'sometimes|string',
         ]);
