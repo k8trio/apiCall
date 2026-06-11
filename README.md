@@ -134,8 +134,7 @@ DELETE http://127.0.0.1:8000/api/students
 ---
 
 # Demo Tutorial
-Watch the demo tutorial here:
-https://drive.google.com/drive/folders/1D_Uw0f2KuFYtGx90_FH5_foFT2HdDcZy?usp=sharing
+apiCall tutorial link: https://drive.google.com/file/d/1KBCF26yHkxr7NgRgZuHnkCp8iJR1vzRV/view?usp=drive_link
 
 The tutorial demonstrates how to test Laravel API endpoints using Postman, including creating, retrieving, updating, and deleting student records through API requests.
 
